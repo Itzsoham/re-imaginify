@@ -14,8 +14,8 @@ const MobileNav = () => {
   return (
     <header className="header">
       <Link href="/" className="flex items-center gap-2 md:py-2">
-        <img
-          src="/assets/images/reimg2.png"
+        <Image
+          src="/assets/images/logo-text.svg"
           alt="logo"
           width={180}
           height={28}
@@ -24,12 +24,12 @@ const MobileNav = () => {
 
       <nav className="flex gap-2">
         <SignedIn>
-          <UserButton afterSwitchSessionUrl="/" />
+          <UserButton afterSignOutUrl="/" />
 
           <Sheet>
             <SheetTrigger>
               <Image 
-                src="/assets/icons/mymenu.svg"
+                src="/assets/icons/menu.svg"
                 alt="menu"
                 width={32}
                 height={32}
@@ -38,10 +38,10 @@ const MobileNav = () => {
             </SheetTrigger>
             <SheetContent className="sheet-content sm:w-64">
               <>
-                <img style={{marginBottom: "-10px"}}
-                  src="/assets/images/reimg2.png"
+                <Image 
+                  src="/assets/images/logo-text.svg"
                   alt="logo"
-                  width={170}
+                  width={152}
                   height={23}
                 />
 
