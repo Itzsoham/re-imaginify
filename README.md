@@ -1,11 +1,9 @@
 <div align="center">
   <br />
     <h2 align="center">Re-Imaginify An AI SaaS Platform</h2>
-  <br />
-    <br />
     <h6 align="center">ReImaginify is an AI-driven SaaS platform that simplifies image creation, background removal, restoration, and recoloring. With its user-friendly interface, it transforms complex image editing into an effortless experience.</h6>
   <br />
-
+    
   <div>
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
